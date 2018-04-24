@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>Pastelria D'liz</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width">
+             <link rel="stylesheet" href="css/metro-bootstrap.css">
+             <link rel="stylesheet" href="css/Bf.css">
+             <script>
+    /**
+     * Array con las imagenes y enlaces que se iran mostrando en la web
+     */
+    var imagenes=new Array(
+        ['ima/inicio1.png'],
+        ['ima/inicio2.png'],
+        ['ima/inicio3.png'],
+        
+    );
+   
+    /**
+     * Funcion para cambiar la imagen y link
+     */
+    function rotarImagenes()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes.length));
+ 
+        // cambiamos la imagen y la url
+        document.getElementById("imagen").src=imagenes[index][0];
+       
+    }
+ 
+    /**
+     * Función que se ejecuta una vez cargada la página
+     */
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,50000);
+    }
+</script>
+    </head>
+    <body class="metro">
+           
+        <div id="medio">
+            <aside id="aside">
+             
+                 <a href="" id="link" ><img src="" id="imagen"></a>
+            </aside>
+          
+        </div>
+       
+    </body>
+</html>

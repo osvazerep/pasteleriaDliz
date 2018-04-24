@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/04/2018, 09:05:57 AM
+    Author     : Ximena
+*/
+
+#input{
+    text-align: center;
+    alignment-adjust: central;
+}
+#exterior{
+  background:#cce5ff;
+ 
+      width: 1500px;
+      height:768px; 
+}
+
+#letra{
+    font-size:100px;
+    margin-left:90px;
+}
+#letra2{
+    font-size:100px; 
+    float: right;
+    text-align:right;
+    margin-top: 60px;
+    margin-right:100px;
+}
+#logo{
+    float: left;
+        
+}
+#superior{
+    margin-top:0px;
+    margin-bottom: 0px;
+    width: 1024px;
+    height: 180px;
+    background:#ffff66; 
+    }
+    
+#table{
+   background: #ffff66;
+    }
+    
+#interior{
+    margin-left:238px;
+    margin-right:238px;
+    width: 1024px;
+    height:768px;
+    text-align: center;
+    vertical-align: 20px;
+    background: white; 
+    
+    }
+    #letr{
+       font-size: 30px;
+       text-align: center;
+    }
+#medio{
+    height:500px;  
+    width: 1024px;
+    margin-top:8px;
+    margin-bottom: 0px;
+    background:#ffff66;
+    }
+
+    
+#aside{
+    height:484px;
+    width: 800px;
+    margin-top:8px;
+    margin-bottom:8px;
+    margin-left: 8px;
+    background:white;
+    float:left;  
+    
+    }
+    
+    
+#aside2{
+    height:500px;
+    width: 800px;
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left: 0px;
+    background:white;
+    float:left;  
+    
+    }
+    
+#section{
+    height:484px;
+    width: 200px;
+    margin-top:8px;
+    margin-bottom:0px;
+    margin-right: 8px;
+    margin-left:8px;
+    background:white;
+    float:left;
+    }
+
+#inferior{
+    height:70px;
+    width: 1024Px;
+    margin-top:10px;
+    margin-bottom: 0px;
+    background:red;
+    }
+
+
+    #ima{
+       float: left;
+     
+    }
+    #logo{
+        margin-right: 8px;
+        margin-bottom: 3px;
+    }
+     
+    #qw{
+      height:484px;
+    width: 800px;
+    }
+    #w{
+   height:484px;
+    width: 190px;     
+    }
+    #p{
+       text-align:justify;
+       font-family:arial;
+       font-size: medium;
+    }
+    #d{
+        float: right;
+    }
+    #e{
+        float: right;
+    }
+    

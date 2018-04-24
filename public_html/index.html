@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pastelria D'liuz</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width">
+             <link rel="stylesheet" href="css/metro-bootstrap.css">
+             <link rel="stylesheet" href="css/Estilos.css">
+<script>
+    /**
+     * Array con las imagenes y enlaces que se iran mostrando en la web
+     */
+    var imagenes=new Array(
+        ['vid/cakes.gif'],
+        ['vid/flanes.gif'],
+        ['vid/pastelgif.gif'],
+        ['vid/postre.gif'],
+        ['vid/tarta.gif'],
+        ['vid/pays.gif'],
+        ['vid/gela.gif'],
+        ['vid/d.gif']
+        
+    );
+   
+    /**
+     * Funcion para cambiar la imagen y link
+     */
+    function rotarImagenes()
+    {
+        // obtenemos un numero aleatorio entre 0 y la cantidad de imagenes que hay
+        var index=Math.floor((Math.random()*imagenes.length));
+ 
+        // cambiamos la imagen y la url
+        document.getElementById("imagen").src=imagenes[index][0];
+       
+    }
+ 
+    /**
+     * Función que se ejecuta una vez cargada la página
+     */
+    onload=function()
+    {
+        // Cargamos una imagen aleatoria
+        rotarImagenes();
+ 
+        // Indicamos que cada 5 segundos cambie la imagen
+        setInterval(rotarImagenes,5000);
+    }
+</script>
+
+    </head>
+    <body class="metro">
+        <div id ="exterior">
+            
+        <div id ="interior">
+           <header  id="superior"> 
+               <table width="100%" height="100%" id="table"  >
+                  <td valinng="middle" aling="center">
+                      
+                    <a href="" id="link" ><img src="" id="imagen"></a>
+                    <img id="logo"src="logoofi.png" width="200" height="180" aling="left">
+                 
+                  </td>
+               </table>
+            </header>
+        <div id="medio">
+            <aside id="aside">
+                    <iframe src="inicio.html" name="iframe2" width="100%" height="100%" align="center" scrolling="yes"> 
+                    </iframe>
+                     
+            </aside>
+            <section id="section"> 
+                <iframe src="menu.html" width="100%" height="100%" align="center" scrolling="no"></iframe>
+            </section>
+        </div>
+            <script src="http://h2.flashvortex.com/display.php?id=2_1524501626_52876_816_0_728_90_10_2_47" type="text/javascript"></script>
+            <footer  id="inferior"> 
+                 <p class="fg-white"style="font-family:cursive, serif;" style="font-size:small;">COPYRIGHT XIMENA SUMUHANO, OSVALDO PEREZ Y KARLA CRISOSTOMO </p>
+                    <div id="logo" align="right">
+ 
+                  <a href="https://www.facebook.com/Pasteler%C3%ADa-y-Reposter%C3%ADa-D-liuz-266657963874518/"> <img src="ima/30.png"></a>
+                  <a href="https://www.instagram.com/dliuzpasterepos/"><img src="ima/instagram.jpg"> </a>
+                </div>
+            </footer>
+        </div>
+        </div>
+    </body>
+</html>
